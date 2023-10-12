@@ -10,7 +10,7 @@
         <a href="/" class="header-link">
             Contact
         </a>
-        <a href="/" class="header-link">
+        <a href="/about" class="header-link">
             About
         </a>
         <a href="/" class="header-link">

@@ -1,16 +1,12 @@
 <script>
   import "../app.css";
+  import Main from "../components/Main.svelte";
 </script>
 
 
-<div class="hero-image">
-  <h1 class="landing-text">
-    Welcome to my Portfolio site
-  </h1>
-</div>
-<div class="content">
+<Main/>
 
-</div>
+
   <style lang="postcss">
     :global(html) {
       background-color: theme(colors.white);

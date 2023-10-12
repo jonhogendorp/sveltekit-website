@@ -30,8 +30,12 @@ h1{
 }
 
 .content{
-    height: 1000px;
     width: 100%;
+}
+
+.landing-content{
+    min-height: 600px;
+    height: 80vh;
 }
 
 .wrapper{
