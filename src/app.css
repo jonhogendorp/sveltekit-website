@@ -1,0 +1,57 @@
+/* Roboto font google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+:root{
+    --brand: #5865f2;
+    --white:#fbfbfb;
+}
+
+h1{
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.hero-image{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content{
+    height: 1000px;
+    width: 100%;
+}
+
+.wrapper{
+    color: var(--brand);
+    font-size: 20px;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper a{
+    margin: 0 2rem;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.wrapper a:hover{
+    text-decoration: underline;
+}
