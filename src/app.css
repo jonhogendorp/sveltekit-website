@@ -17,9 +17,10 @@ html, body, h1, h2, h3, h4, h5, h6{
 
 h1{
     color: var(--white);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 72px;
+    font: 900 72px 'Poppins', sans-serif;
+}
+h2{
+    font: 900 54px 'Poppins', sans-serif ;
 }
 
 .hero-image{
