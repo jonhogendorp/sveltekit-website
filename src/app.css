@@ -28,6 +28,7 @@ h2{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   position: relative;
 }
 
 .content{
@@ -37,26 +38,4 @@ h2{
 .landing-content{
     min-height: 600px;
     height: 80vh;
-}
-
-.wrapper{
-    color: var(--brand);
-    font-size: 20px;
-    width: 100%;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.wrapper a{
-    margin: 0 2rem;
-    text-decoration: none;
-    color: var(--white);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-
-.wrapper a:hover{
-    text-decoration: underline;
 }
